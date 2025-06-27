@@ -1,25 +1,9 @@
-1.- se crea una aplicación flask debe mostrar la ip desde donde está conectado y debe correr en el puerto 8000
-1.1.- Se Instala Flask
+# Introducción
 
-![IMG](imagenes/Imagen_1.png)
+Este proyecto tiene como objetivo aplicar conceptos avanzados de redes y despliegue de aplicaciones web utilizando tecnologías como Flask, HTML/CSS y Docker. El trabajo se divide en tres partes principales:
 
----------------------------------------------------------------
+1. **Primera parte:** Desarrollo de una aplicación web sencilla con Flask que muestra la dirección IP desde la que el usuario está conectado. Esta aplicación se ejecuta en el puerto 8000.
+2. **Segunda parte:** Modificación de la aplicación anterior para incorporar una plantilla HTML y estilos CSS, permitiendo mostrar la IP de conexión en una interfaz más amigable. Esta versión corre en el puerto 8181.
+3. **Tercera parte:** Creación de un script en Bash que construye y ejecuta un contenedor Docker a partir de un Dockerfile. El contenedor levanta el sitio web y expone el puerto 8888.
 
-1.2.- Se llega hasta la carpeta deseada para poder editar el sample_app.py
-
-![IMG](Imagenes/Imagen_2.png)
-
-1.3.- script que se pondrá en el nano
-
-![IMG](Imagenes/Imagen_3.png)
-
-1.4.- resultado del script 
-
-![IMG](Imagenes/Imagen_4.png)
-![IMG](Imagenes/Imagen_5.png)
-![IMG](Imagenes/Imagen_6.png)
-
-2.- levantamos una aplicación Python, y usando plantilla html y css, que levante un sitio web que verifique la ip de conexión y que corra en el puerto 8181
-2.1.- cambiamos algunas cosas del codigo anterior
-
-![IMG](Imagenes/Imagen_7.png)
+Dentro de la carpeta "Documentacion" se detallan los pasos realizados en cada parte del proyecto.
